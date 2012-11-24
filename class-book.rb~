@@ -2,7 +2,7 @@ require 'yaml'
 
 class Book < Shoes
   url '/', :index
-  url '/xiaohu_story/(\d+)', :xiaohu
+  url '/xiaohu_story/(\d+)', :xiaohu_story
 
   def index
     xiaohu(0)
